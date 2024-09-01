@@ -1,0 +1,33 @@
+
+==== 系统信息 ====
+Sun Sep  1 11:09:33 CST 2024
+==== 系统运行时间 ====
+ 11:09:33 up 29 days, 14:21,  0 user,  load average: 0.44, 0.34, 0.32
+==== CPU 信息 ====
+==== CPU 使用情况 ====
+%Cpu(s):  2.4 us,  0.0 sy,  0.0 ni, 97.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+==== 内存使用情况 ====
+               total        used        free      shared  buff/cache   available
+Mem:            11Gi       3.0Gi       1.3Gi        27Mi       7.6Gi       8.6Gi
+Swap:          975Mi        93Mi       882Mi
+==== 磁盘使用情况 ====
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         456G   23G  411G   6% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+/dev/sda2       456G   23G  411G   6% /ql/data
+tmpfs           5.8G     0  5.8G   0% /proc/asound
+tmpfs           5.8G     0  5.8G   0% /proc/acpi
+tmpfs           5.8G     0  5.8G   0% /sys/firmware
+==== 交换分区使用情况 ====
+==== 网络接口的IPv4地址 ====
+lo: 127.0.0.1/8
+eth0: 172.18.0.9/16
+==== 网络流量概况 ====
+Inter-|接收流量: 0MB 发送流量: 0MB
+==== 内存占用最高的三个进程 ====
+root         158  0.9  0.9 716832 117444 ?       Ssl  07:39   1:57 node /ql/static/build/app.js
+root         128  0.6  0.7 700892 91860 ?        Ssl  07:39   1:20 node /ql/static/build/public.js
+root         127  0.5  0.7 696772 88316 ?        Ssl  07:39   1:06 node /ql/static/build/schedule/index.js
+==== 系统负载 ====
+0.44 0.34 0.32 1/844 25489
